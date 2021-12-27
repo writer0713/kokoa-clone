@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/pages/chats.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <title>Koakoa Talk - Chats</title>
+  </head>
+  <!-- captures: https://github.com/nomadcoders/kokoa-clone-2020/tree/master/screenshots -->
+  <body>
+    <header class="header">
+      <div class="header__item">
+        <span class="mr-5">No Service</span
+        ><span><i class="fas fa-wifi"></i></span>
+      </div>
+      <div class="header__item"><span>22:43</span></div>
+      <div class="header__item">
+        <span class="mr-5">11%</span>
+        <span class="mr-5"><i class="fas fa-battery-quarter fa-lg"></i></span>
+        <span><i class="fas fa-bolt"></i></span>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <div class="sub-header">
+      <h1 class="sub-header__title">Chats</h1>
+      <nav class="sub-header__buttons">
+        <i class="fas fa-search fa-2x"></i>
+        <i class="far fa-comment fa-2x"></i>
+        <i class="fas fa-music fa-2x"></i>
+        <i class="fas fa-cog fa-2x"></i>
+      </nav>
+    </div>
+    <!-- end of sub-header -->
+
+    <main class="main">
+      <section class="chats">
+        <a href="/chat.html"
+          ><div class="card chat">
+            <img class="card__image mr-20" src="./img/Upstream-1.png" />
+            <!-- end of card__image -->
+            <div class="card__body">
+              <div class="card__content">
+                <h2 class="card__user-name">Park</h2>
+                <p class="card__text">How r u doing, man?!</p>
+              </div>
+              <!-- end of card__content -->
+
+              <div class="card__additional-information">
+                <p class="card__time">20:42</p>
+                <span class="message-count">1</span>
+              </div>
+              <!-- end of card__additional-information -->
+            </div>
+            <!-- end of card__body -->
+          </div>
+          <!-- end of card -->
+        </a>
+      </section>
+      <!-- end of chats section-->
+
+      <section class="no-mobile"><h1>Your screen is too big</h1></section>
+      <!-- end of no-mobile -->
+    </main>
+
+    <footer class="footer">
+      <span class="footer__item"
+        ><a href="/friends.html"><i class="far fa-user fa-2x"></i></a
+      ></span>
+      <span class="footer__item"
+        ><a href="#"
+          ><i class="fas fa-comment fa-2x"></i
+          ><span class="footer__message-count message-count">5</span></a
+        ></span
+      >
+      <span class="footer__item"
+        ><a href="/find.html"><i class="fas fa-search fa-2x"></i></a
+      ></span>
+      <span class="footer__item"
+        ><a href="/more.html"
+          ><i class="fas fa-ellipsis-h fa-2x"
+            ><span class="new-dot"></span></i></a
+      ></span>
+    </footer>
+  </body>
+</html>

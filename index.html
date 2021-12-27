@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/pages/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <title>Koakoa Talk - Login</title>
+  </head>
+  <!-- captures: https://github.com/nomadcoders/kokoa-clone-2020/tree/master/screenshots -->
+  <body>
+    <header class="header">
+      <div class="header__item">
+        <span class="mr-5">No Service</span
+        ><span><i class="fas fa-wifi"></i></span>
+      </div>
+      <div class="header__item"><span>22:43</span></div>
+      <div class="header__item">
+        <span class="mr-5">11%</span>
+        <span class="mr-5"><i class="fas fa-battery-quarter fa-lg"></i></span>
+        <span><i class="fas fa-bolt"></i></span>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <main class="main">
+      <section class="contents">
+        <h1 class="contents__welcome-message">Welcome to KokoaTalk</h1>
+        <p class="contents__login-message">
+          <span>If you have a Koakoa Account,</span>
+          <span>log in with your email or phone number.</span>
+        </p>
+      </section>
+      <!-- end of section -->
+
+      <section class="inputs">
+        <form action="./friends.html" class="inputs__form">
+          <input
+            type="text"
+            class="inputs__username inputs__input mb-15"
+            placeholder="Email or phone number"
+            required
+            minlength="8"
+          />
+          <!-- end of input -->
+
+          <input
+            type="inputs__password"
+            class="inputs__password inputs__input"
+            placeholder="Password"
+            required
+            minlength="8"
+          />
+          <!-- end of input -->
+
+          <button class="inputs__login-btn">Log In</button>
+          <!-- end of button -->
+        </form>
+      </section>
+      <!-- end of section -->
+
+      <section class="buttons">
+        <p class="buttons__find-account-btn">Find Kokoa Account or Password</p>
+      </section>
+      <!-- end of section -->
+
+      <section class="no-mobile"><h1>Your screen is too big</h1></section>
+      <!-- end of no-mobile -->
+    </main>
+
+    <div class="splash-screen">
+      <i class="fas fa-comment"></i>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.message-count {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f5622a;
+  color: white;
+
+  font-size: 15px;
+  font-weight: bold;
+}

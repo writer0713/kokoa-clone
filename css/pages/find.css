@@ -1,0 +1,151 @@
+@import url(/css/common/common.css);
+@import url(/css/components/header.css);
+@import url(/css/components/sub-header.css);
+@import url(/css/components/footer.css);
+@import url(/css/components/card.css);
+@import url(/css/components/message-count.css);
+@import url(/css/components/new-dot.css);
+
+.sub-header__buttons {
+  width: 100px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  margin-top: 105px; /* header + sub-header 의 height */
+  width: 100vw;
+  padding: 10px 20px;
+}
+
+/* 상단 메뉴 */
+
+.menus {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-item {
+  height: 150px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  text-align: center;
+  cursor: pointer;
+}
+
+.menu-item__icon-wrapper {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+/* recommended-friends section */
+
+.recommended-friends {
+  height: 400px;
+}
+
+.section-title {
+  margin: 20px 0;
+  color: #979797;
+}
+
+.recommended-friends__content {
+  height: 380px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 22px;
+  color: #979797;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-wrapper {
+  color: #979797;
+  cursor: pointer;
+}
+
+.chat-card {
+  height: 165px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.chat-card__body {
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.chat-card__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.chat-card__tags {
+  font-size: 18px;
+  color: #979797;
+}
+
+.chat-card__additional-information {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #979797;
+}
+
+.chat-card__status {
+  color: #f782cf;
+}
+
+.chat-card__host-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.chat-card__image-wrapper {
+  position: relative;
+}
+
+.chat-card__likes {
+  width: 70px;
+  height: 25px;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+
+  font-size: 16px;
+  color: white;
+  background-color: rgb(8, 8, 8, 0.4);
+}
+
+.chat-card__image {
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+}

@@ -1,0 +1,61 @@
+@import url(/css/common/common.css);
+@import url(/css/components/header.css);
+@import url(/css/components/sub-header.css);
+@import url(/css/components/footer.css);
+@import url(/css/components/card.css);
+@import url(/css/components/message-count.css);
+@import url(/css/components/new-dot.css);
+
+.information {
+  width: 100%;
+  height: 45px;
+
+  position: fixed;
+  top: 105px;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fafafa;
+
+  cursor: pointer;
+}
+
+.information .fas {
+  color: #b4b4b4;
+}
+
+.main {
+  margin-top: 150px; /* header + sub-header + information 의 height */
+  width: 100vw;
+  padding: 10px 20px;
+}
+
+.profile {
+  margin-bottom: 20px;
+}
+
+.channel__header {
+  height: 50px;
+  padding: 30px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #979797;
+}
+
+.channel__title {
+  font-size: 20px;
+}
+
+.channel__folding-btn {
+  cursor: pointer;
+}
+
+.card__title {
+  font-size: 22px;
+}

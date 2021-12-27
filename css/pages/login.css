@@ -1,0 +1,123 @@
+@import url(/css/common/common.css);
+@import url(/css/components/header.css);
+
+.main {
+  height: 70vh;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contents {
+  height: 30%;
+  margin: 40px 0 10px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents__welcome-message {
+  font-size: 30px;
+  font-weight: bold;
+
+  margin-bottom: 30px;
+}
+
+.contents__login-message {
+  font-size: 20px;
+  color: #b4b4b4;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs {
+  height: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs__form {
+  width: 100%;
+}
+
+.inputs__input {
+  width: 100%;
+  height: 60px;
+
+  border: none;
+  border-bottom: 1px solid #b4b4b4;
+}
+
+.inputs__input:focus {
+  outline: none;
+}
+
+.inputs__input::placeholder {
+  font-size: 20px;
+  color: #b4b4b4;
+}
+
+.inputs__login-btn {
+  width: 100%;
+  height: 55px;
+
+  margin-top: 50px;
+
+  border: none;
+  border-radius: 5px;
+
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons__find-account-btn {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash-screen {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  font-size: 132px;
+  background-color: yellow;
+
+  z-index: 99;
+
+  animation: hideSplashScreen 1s ease-in-out forwards;
+  animation-delay: 2s;
+}

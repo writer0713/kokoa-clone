@@ -1,0 +1,15 @@
+.new-icon {
+  width: 25px;
+  height: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  background-color: #f55c48;
+
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+}

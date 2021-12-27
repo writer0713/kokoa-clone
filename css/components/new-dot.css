@@ -1,0 +1,10 @@
+.new-dot {
+  width: 8px;
+  height: 8px;
+
+  position: absolute;
+  top: -8px;
+
+  border-radius: 50%;
+  background-color: #f55c48;
+}

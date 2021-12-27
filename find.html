@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/pages/find.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <title>Koakoa Talk - Find</title>
+  </head>
+  <!-- captures: https://github.com/nomadcoders/kokoa-clone-2020/tree/master/screenshots -->
+  <body>
+    <header class="header">
+      <div class="header__item">
+        <span class="mr-5">No Service</span
+        ><span><i class="fas fa-wifi"></i></span>
+      </div>
+      <div class="header__item"><span>22:43</span></div>
+      <div class="header__item">
+        <span class="mr-5">11%</span>
+        <span class="mr-5"><i class="fas fa-battery-quarter fa-lg"></i></span>
+        <span><i class="fas fa-bolt"></i></span>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <div class="sub-header">
+      <h1 class="sub-header__title">Find</h1>
+      <nav class="sub-header__buttons">
+        <i class="fas fa-search fa-2x"></i>
+        <i class="fas fa-cog fa-2x"><span class="new-dot"></span></i>
+      </nav>
+    </div>
+    <!-- end of sub-header -->
+
+    <main class="main">
+      <nav class="menus">
+        <div class="menu-item">
+          <div class="menu-item__icon-wrapper">
+            <i class="fas fa-qrcode fa-3x"></i>
+          </div>
+          <p>QR Code</p>
+        </div>
+        <!-- end of menu-item -->
+
+        <div class="menu-item">
+          <div class="menu-item__icon-wrapper">
+            <i class="far fa-address-card fa-3x"></i>
+          </div>
+          <p>
+            Add by <br />
+            Contacts
+          </p>
+        </div>
+        <!-- end of menu-item -->
+
+        <div class="menu-item">
+          <div class="menu-item__icon-wrapper">
+            <i class="far fa-id-card fa-3x"></i>
+          </div>
+          <p>Add by ID</p>
+        </div>
+        <!-- end of menu-item -->
+
+        <div class="menu-item">
+          <div class="menu-item__icon-wrapper">
+            <i class="far fa-envelope fa-3x"></i>
+          </div>
+          <p>Invite</p>
+        </div>
+        <!-- end of menu-item -->
+      </nav>
+      <!-- end of nav menus -->
+
+      <div class="line"></div>
+
+      <section class="recommended-friends">
+        <h4 class="section-title">Recommended Friends</h4>
+        <div class="recommended-friends__content">
+          You have no reccomended friends.
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section class="open-chat">
+        <div class="section-header">
+          <h4 class="section-title">Open Chat</h4>
+          <div class="link-wrapper">
+            <span>Go to Openchat Home</span>
+            <span><i class="fas fa-chevron-right"></i></span>
+          </div>
+        </div>
+        <!-- end of section-header -->
+
+        <div class="chat-card">
+          <div class="chat-card__body">
+            <h1 class="chat-card__title">#BTS</h1>
+            <div class="chat-card__tags">
+              <span class="tag">#BTS</span>
+              <span class="tag">#ARMY</span>
+              <span class="tag">#FRIENDS</span>
+            </div>
+            <!-- end of chat-card__tags -->
+            <div class="chat-card__additional-information">
+              <img src="/img/3DDD-4.png" class="chat-card__host-image mr-10" />
+              <span class="members mr-10">802 members</span>
+              <span class="mr-10">|</span>
+              <span class="chat-card__status">Active</span>
+            </div>
+            <!-- end of chat-card__additional-information-->
+          </div>
+          <!-- end of chat-card__body -->
+
+          <div class="chat-card__image-wrapper">
+            <div class="chat-card__likes">
+              <i class="fas fa-heart"> 326</i>
+            </div>
+            <img src="/img/bts1.png" class="chat-card__image" />
+          </div>
+        </div>
+        <!-- end of chat-card -->
+
+        <div class="line"></div>
+
+        <div class="chat-card">
+          <div class="chat-card__body">
+            <h1 class="chat-card__title">Bts Gang~</h1>
+            <div class="chat-card__tags">
+              <span class="tag">#englishonly</span>
+              <span class="tag">#ipurpleyou</span>
+              <span class="tag">#jimin</span>
+            </div>
+            <!-- end of chat-card__tags -->
+            <div class="chat-card__additional-information">
+              <img src="/img/3DDD.png" class="chat-card__host-image mr-10" />
+              <span class="members mr-10">299 members</span>
+              <span class="mr-10">|</span>
+              <span class="chat-card__status">Active</span>
+            </div>
+            <!-- end of chat-card__additional-information-->
+          </div>
+          <!-- end of chat-card__body -->
+
+          <div class="chat-card__image-wrapper">
+            <div class="chat-card__likes">
+              <i class="fas fa-heart"> 215</i>
+            </div>
+            <img src="/img/bts2.jpeg" class="chat-card__image" />
+          </div>
+        </div>
+        <!-- end of chat-card -->
+      </section>
+      <!-- end of open-chat -->
+
+      <section class="no-mobile"><h1>Your screen is too big</h1></section>
+      <!-- end of no-mobile -->
+    </main>
+
+    <footer class="footer">
+      <span class="footer__item"
+        ><a href="/friends.html"><i class="far fa-user fa-2x"></i></a
+      ></span>
+      <span class="footer__item"
+        ><a href="/chats.html"
+          ><i class="far fa-comment fa-2x"></i
+          ><span class="footer__message-count message-count">5</span></a
+        ></span
+      >
+      <span class="footer__item"
+        ><a href="#"><i class="fas fa-search fa-2x"></i></a
+      ></span>
+      <span class="footer__item"
+        ><a href="/more.html"
+          ><i class="fas fa-ellipsis-h fa-2x"
+            ><span class="new-dot"></span></i></a
+      ></span>
+    </footer>
+  </body>
+</html>

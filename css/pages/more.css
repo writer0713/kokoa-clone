@@ -1,0 +1,73 @@
+@import url(/css/common/common.css);
+@import url(/css/components/header.css);
+@import url(/css/components/sub-header.css);
+@import url(/css/components/footer.css);
+@import url(/css/components/card.css);
+@import url(/css/components/message-count.css);
+@import url(/css/components/new-dot.css);
+
+.main {
+  margin-top: 105px; /* header + sub-header 의 height */
+  width: 100vw;
+  padding: 10px 20px;
+}
+
+/* 상단 메뉴 */
+
+.menus {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  width: 25%;
+  height: 150px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  text-align: center;
+  cursor: pointer;
+}
+
+.menu-item__icon-wrapper {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+/* suggestions section */
+
+.suggestions {
+  height: 400px;
+}
+
+.section-title {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.suggestions__content {
+  height: 150px;
+  color: #979797;
+}
+
+.suggestion-item {
+  width: 130px;
+  height: 130px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.suggestion-item__image {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+}
