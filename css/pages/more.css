@@ -1,10 +1,10 @@
-@import url(/css/common/common.css);
-@import url(/css/components/header.css);
-@import url(/css/components/sub-header.css);
-@import url(/css/components/footer.css);
-@import url(/css/components/card.css);
-@import url(/css/components/message-count.css);
-@import url(/css/components/new-dot.css);
+@import url(../common/common.css);
+@import url(../components/header.css);
+@import url(../components/sub-header.css);
+@import url(../components/footer.css);
+@import url(../components/card.css);
+@import url(../components/message-count.css);
+@import url(../components/new-dot.css);
 
 .main {
   margin-top: 105px; /* header + sub-header 의 height */
