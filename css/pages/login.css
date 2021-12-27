@@ -1,5 +1,5 @@
-@import url(/css/common/common.css);
-@import url(/css/components/header.css);
+@import url(../common/common.css);
+@import url(../components/header.css);
 
 .main {
   height: 70vh;
