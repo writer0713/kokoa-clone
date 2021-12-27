@@ -30,6 +30,8 @@
   font-size: 20px;
   color: #b4b4b4;
 
+  margin: 20px 0;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,6 +40,8 @@
 
 .inputs {
   height: 40%;
+
+  margin: 50px 0;
 
   display: flex;
   flex-direction: column;
@@ -70,13 +74,19 @@
   width: 100%;
   height: 55px;
 
-  margin-top: 50px;
+  margin: 50px 0;
 
   border: none;
   border-radius: 5px;
 
+  background-color: #d3d2d2;
+
   font-size: 20px;
   cursor: pointer;
+}
+
+.inputs__login-btn:hover {
+  background-color: #e0e0e0;
 }
 
 .buttons {
